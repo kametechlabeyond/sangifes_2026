@@ -19,7 +19,7 @@ void main(){
   if (content.any((element) => you.favolite.contains(element)) && you.type == YourType.human){
     print("Please Come!!!!!!!!!");
   } else if (you.type == YourType.kame){
-    print("");
+    print("🐢");
   } else {
     print("Please Come!!");
   };
